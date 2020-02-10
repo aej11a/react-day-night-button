@@ -1,12 +1,14 @@
 {
-  "name": "super-lemon",
+  "name": "react-day-night-button",
   "version": "1.0.0",
   "description": "",
+  "readme": "README.md",
+
   "main": "./build/index.js",
   "scripts": {
     "build": "webpack"
   },
-  "author": "guandjoy",
+  "author": "Andrew E Jones",
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.7.5",
@@ -14,12 +16,13 @@
     "@babel/preset-react": "^7.7.4",
     "babel-loader": "^8.0.6",
     "css-loader": "^3.3.0",
+    "node-sass": "^4.13.1",
+    "sass-loader": "^8.0.2",
     "style-loader": "^1.0.1",
     "webpack": "^4.41.2",
     "webpack-cli": "^3.3.10"
   },
   "dependencies": {
-    "@material/react-button": "^0.15.0",
     "prop-types": "^15.7.2",
     "react": "^16.12.0"
   }
